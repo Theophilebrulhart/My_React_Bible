@@ -1,0 +1,57 @@
+[
+    {
+      "tags": ["useState"],
+      "title": "UseState prev",
+      "link": "/useStatePrev",
+      "description": "Use prev value in UseState to modify the current value to be sure to use the latest updated version of your state"
+    },
+    {
+      "tags": ["useState", "object"],
+      "title": "Updating object state",
+      "link": "/updatingObjectState",
+      "description": "How to correctly update an object and the variable it contains."
+    },
+    {
+      "tags": ["condition", "rendering"],
+      "title": "Conditional Rendering",
+      "link": "/conditionalRendering",
+      "description": "How to properly render your component when it depend on a specific value"
+    },
+    {
+      "tags": ["rendering", "useState", "props"],
+      "title": "Derived infos from state / hooks",
+      "link": "/derivedValue",
+      "description": "How to properly use a derived information from a state or a hook using the rerendering of the component."
+    },
+    {
+      "tags": ["rendering", "useState", "object"],
+      "title": "Primitive vs Non-primitive",
+      "link": "/PrimitiveVsNonPrimitive",
+      "description": "Updating a primitive value with the same value won't cause the rerendering of the component. But how doest it work with non-primitiv value such as object ?"
+    },
+    {
+      "tags": ["useEffect", "rendering", "useState", "object", "loading"],
+      "title": "Set an obj to a state",
+      "link": "/StateWithObj",
+      "description": "Be sure to initialize your useState correctly when it will contain an object. Also protect your rendering while fetching data."
+    },
+    {
+      "tags": ["hooks", "function", "useEffect"],
+      "title": "Use custom hooks",
+      "link": "/CustomHooks",
+      "description": "To write a clean code, you shouldn't repeat yourself. Create custom hooks to create a general codebase."
+    },
+    {
+      "tags": ["useEffect", "depedency", "function"],
+      "title": "StateClosure",
+      "link": "/StateClosure",
+      "description": "Be aware of the creation time of function inside UseEffect and how your dependecies act on it."
+    },
+    {
+      "tags": ["typescript"],
+      "title": "Type vs Interface",
+      "link": "/TypeVsInterface",
+      "description": "Why you should always use type instead of interface"
+    }
+  ]
+  
